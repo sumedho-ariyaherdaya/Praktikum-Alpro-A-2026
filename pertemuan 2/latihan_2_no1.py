@@ -12,5 +12,4 @@ def fizzbuzz_plus(n):
         else:
             print(n)
         
-
 fizzbuzz_plus("21")
