@@ -1,21 +1,16 @@
 def fizzbuzz_plus(n):
-    for N in range(1, n+1):
-        if N % 3 == 0 and N % 5 == 0:
+    for n in range(22):
+        print(n)
+        if n % 3 and n % 5:
             print("FizzBuzz")
-            
-        elif N % 3 == 0:
+        if n % 3:
             print("Fizz")
-            if N % 7 == 0:
-                print("Fizz" + "Seven")
-            
-        elif N % 5 == 0:
+        if n % 5:
             print("Buzz")
-            
-        elif N % 7 == 0:
+        if n % 7:
             print("Seven")
-
         else:
-            print(N)
+            print(n)
         
 
-fizzbuzz_plus(21)
+fizzbuzz_plus("21")
